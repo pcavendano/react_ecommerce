@@ -3,7 +3,7 @@ import {Context} from '../context/ContextComponent.js'
 
 function Image({className, img}) {
     const {toggleFavorite} = useContext(Context)
-    console.log("pedro")
+    console.log("pedrgrgfo")
     const [hovered, setHovered] = useState(false)
     const heartIcon = hovered && <i className={img.isFavorite?"ri-heart-fill favorite":"ri-heart-line favorite"}
     onClick={() =>toggleFavorite(img.id)}></i>
