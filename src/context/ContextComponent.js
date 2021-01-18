@@ -7,12 +7,6 @@ function ContextProvider(props){
     const [isLoaded,setIsLoaded]=useState(false)
     const [allPhotos, setAllPhotos] = useState([])
 
-    const toggleFavorite=(id)=>{
-        const trouve = allPhotos.find((element=>
-            element.id ===id))
-        trouve.isFavorite === false?trouve.isFavorite=true:trouve.isFavorite=false
-        
-    }
     useEffect(()=>{
         fetch("https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json")
         .then(res=>res.json())
@@ -27,6 +21,18 @@ function ContextProvider(props){
             }
         )
     },[])
+
+    function toggleFavorite(id) {
+        const updatedArr = allPhotos.map(photo => {
+            if(photo.id === id) {
+                console.log(id)
+                console.log(!photo.isFavorite)
+                return {...photo, isFavorite: !photo.isFavorite}
+            }
+            return photo
+        })
+        setAllPhotos(updatedArr)
+    }
 
     return(
         
