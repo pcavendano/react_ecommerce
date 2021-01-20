@@ -11,7 +11,7 @@ function Header() {
             <h2>Pic a picture</h2>
             </Link>
             <Link to="/cart">
-            <i className={cartItems.length != 0?"ri-shopping-cart-fill ri-fw ri-2x":
+            <i className={cartItems.length !== 0?"ri-shopping-cart-fill ri-fw ri-2x":
         "ri-shopping-cart-line ri-fw ri-2x"}></i>
             </Link>
         </header>
