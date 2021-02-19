@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [15.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -28,8 +28,8 @@ jobs:
     - run: npm run build --if-present
     - run: |
         cd build && \
-        git config user.name "publisher" && \
-        git config user.email "publisher@git.hub" && \
+        git config --global user.email "pedro@react_ecommerce.com" && \ 
+        git config --global user.name "pedro" && \
         git init && \
         git commit --allow-empty -m 'update gh-pages' && \
         git checkout -b gh-pages && \
