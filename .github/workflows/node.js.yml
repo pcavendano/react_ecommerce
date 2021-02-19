@@ -22,13 +22,9 @@ jobs:
     - run: | 
         npm ci && \
         npm run build --if-present && \
-        cd build && \
-        git config --global user.email "pedro@react_ecommerce.com" && \ 
-        git config --global user.name "pedro" && \
-        git init && \
-        git commit --allow-empty -m 'update gh-pages' && \
-        git checkout -b gh-pages && \
-        git add . && \
-        git commit -am 'update gh-pages' && \
-        git push https://github.com/pcavendano/react_ecommerce gh-pages --force
-
+        
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.0.0
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: build # The folder the action should deploy.
