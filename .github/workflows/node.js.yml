@@ -26,4 +26,14 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm i
     - run: npm run build --if-present
+    - run: |
+        cd build && \
+        git config user.name "publisher" && \
+        git config user.email "publisher@git.hub" && \
+        git init && \
+        git commit --allow-empty -m 'update gh-pages' && \
+        git checkout -b gh-pages && \
+        git add . && \
+        git commit -am 'update gh-pages' && \
+        git push https://github.com/pcavendano/react_ecommerce gh-pages --force
 
