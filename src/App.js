@@ -9,10 +9,10 @@ function App() {
         <div>
             <Header />
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/react_ecommerce/">
                     <Photos/>
                 </Route>
-                <Route path="/cart">
+                <Route path="/react_ecommerce/cart">
                     <Cart/>
                 </Route>
             </Switch>
