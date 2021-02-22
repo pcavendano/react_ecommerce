@@ -10,6 +10,9 @@ function ContextProvider(props) {
   const [allPhotos, setAllPhotos] = useState([]);
   const [cartItems, setCartItems] = useState([]);
 
+  //Add /react_ecommerce to ecommerce_route variable for gh_pages to work
+  const ecommerce_route = `/react_ecommerce`;
+
   useEffect(() => {
     fetch(
       "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json"
@@ -49,6 +52,7 @@ function ContextProvider(props) {
   return (
     <Context.Provider
       value={{
+        ecommerce_route,
         allPhotos,
         cartItems,
         setCartItems,
