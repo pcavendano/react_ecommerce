@@ -10,7 +10,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_ecommerce_gift.gif" alt="gif on how to use the app" width="160">
+  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_ecommerce_gift.gif" alt="gif on how to use the app" width="560">
 </h1>
 
 <h4 align="center">A web based pictures store built with <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
