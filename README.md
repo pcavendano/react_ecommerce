@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_animation_gif.gif" alt="gif on how to use the app" width="160">
+  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_ecommerce_gift.gif" alt="gif on how to use the app" width="160">
 </h1>
 
 <h4 align="center">A web based pictures store built on <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
