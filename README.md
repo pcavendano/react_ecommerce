@@ -5,6 +5,7 @@
 
 [![Build Status](https://img.shields.io/github/workflow/status/pcavendano/react_ecommerce/Node.js%20CI)](https://travis-ci.org/pcavendano/react_ecommerce)
 
+![NPM License](https://img.shields.io/npm/l/:packageName)
 
 ---
 
