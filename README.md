@@ -1,11 +1,14 @@
 # React Photo Store
+
 ---
 
-[![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
+[![react](./assets/react.svg)](https://aleen42.github.io/badges/src/react.svg)
+
+[![vs-code](./assets/code.svg)](https://aleen42.github.io/badges/src/visual_studio.svg)
+
+
 
 [![Build Status](https://img.shields.io/github/workflow/status/pcavendano/react_ecommerce/Node.js%20CI)](https://travis-ci.org/pcavendano/react_ecommerce)
-
-![NPM License](https://img.shields.io/npm/l/:packageName)
 
 ---
 
