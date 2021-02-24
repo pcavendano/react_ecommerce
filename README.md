@@ -1,7 +1,7 @@
 # React Photo Store
 ---
 
-[![NPM Version][npm-image]][npm-url]
+[![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 
 [![Build Status](https://img.shields.io/github/workflow/status/pcavendano/react_ecommerce/Node.js%20CI)](https://travis-ci.org/pcavendano/react_ecommerce)
 
@@ -10,7 +10,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_ecommerce_gift.gif" alt="gif on how to use the app" width="560">
+  <img src="https://github.com/pcavendano/react_ecommerce/blob/master/assets/react_ecommerce.gif" alt="gif on how to use the app" width="560">
 </h1>
 
 <h4 align="center">A web based pictures store built with <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
