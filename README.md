@@ -2,8 +2,6 @@
 
 [![Build Status](https://img.shields.io/github/workflow/status/pcavendano/react_ecommerce/Node.js%20CI)](https://travis-ci.org/pcavendano/react_ecommerce)
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
 <h1 align="center">
   <br>
   <img src="https://github.com/pcavendano/react_ecommerce/blob/master/icon.png" alt="logo" width="160">
