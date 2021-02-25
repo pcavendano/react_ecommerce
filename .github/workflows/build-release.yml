@@ -21,7 +21,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: | 
         npm ci && \
-        sed -i '' 's/private": true,/private": true,"homepage":"http:\/\/pcavendano\.github\.io\/react_ecommerce",/g' /home/runner/work/react_ecommerce/react_ecommerce/package.json
+        sed -i '' 's/private": true,/private": true,"homepage":"http:\/\/pcavendano\.github\.io\/react_ecommerce",/g' /home/runner/work/react_ecommerce/react_ecommerce/package.json && \
         npm run build
         
     - name: Deploy 🚀
