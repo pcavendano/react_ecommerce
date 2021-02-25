@@ -8,13 +8,10 @@ function Header() {
 
   return (
     <header>
-      <Link to={`${ecommerce_route}/`}>
+      <Link to={`${ecommerce_route}`}>
         <h2>Pic a picture</h2>
       </Link>
-      <Link to="/">
-        <h2>Pic a picture</h2>
-      </Link>
-      <Link to={`${ecommerce_route}/cart/`}>
+      <Link to={`${ecommerce_route}cart/`}>
         <i
           className={
             cartItems.length !== 0

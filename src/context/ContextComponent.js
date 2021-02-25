@@ -10,8 +10,9 @@ function ContextProvider(props) {
   const [allPhotos, setAllPhotos] = useState([]);
   const [cartItems, setCartItems] = useState([]);
 
-  //Add /react_ecommerce to ecommerce_route variable for gh_pages to work
-  const ecommerce_route = `/react_ecommerce`;
+  //Add react_ecommerce to ecommerce_route variable for gh_pages to work
+  //If using locally remove react_ecommerce to ecommerce_route variable to work
+  const ecommerce_route = `/`;
 
   useEffect(() => {
     fetch(

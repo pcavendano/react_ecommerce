@@ -7,11 +7,12 @@ import { Context } from "./context/ContextComponent.js";
 
 function App() {
   const { ecommerce_route } = useContext(Context);
+  console.log(`aca ${ecommerce_route} aqui`);
   return (
     <div>
       <Header />
       <Switch>
-        <Route exact path={`${ecommerce_route}/`}>
+        <Route exact path={`${ecommerce_route}`}>
           <Photos />
         </Route>
         <Route path={`${ecommerce_route}/cart`}>
