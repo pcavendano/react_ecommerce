@@ -5,7 +5,7 @@ import { Context } from "../context/ContextComponent.js";
 function Header() {
   const { cartItems } = useContext(Context);
   const { ecommerce_route } = useContext(Context);
-
+  console.log(`${ecommerce_route} aqui`)
   return (
     <header>
       <Link to={`${ecommerce_route}`}>
