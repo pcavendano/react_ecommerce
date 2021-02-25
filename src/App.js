@@ -15,7 +15,7 @@ function App() {
         <Route exact path={`${ecommerce_route}`}>
           <Photos />
         </Route>
-        <Route path={`${ecommerce_route}/cart`}>
+        <Route path={`${ecommerce_route}cart`}>
           <Cart />
         </Route>
       </Switch>
